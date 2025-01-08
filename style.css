@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mobile 
+{
+    display: none;
+}
+
+body
+{
+    font-family: "Sixtyfour Convergence", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+    color: #f2f0f0;
+    background-color: #0F0F26;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.clock
+{
+    margin-top: 2vw;
+}
+
+@media (max-width: 370px)
+{
+    .pc
+    {
+        display: none;
+    }
+    .mobile
+    {
+        font-size: 15px;
+        display: block;
+    };
+}
+
+@media ((min-width: 370px) and (max-width: 430px))
+{
+    .pc
+    {
+        display: none;
+    }
+    .mobile
+    {
+        font-size: 17px;
+        display: block;
+    };
+}
